@@ -1,0 +1,81 @@
+.new-arrivals {
+    text-align: center; /* Center the content */
+    padding: 20px;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    width: 80%;
+    height: 80%;
+  }
+  
+  .new-arrivals h2 {
+    margin-bottom: 20px;
+    
+  }
+  
+  .product-list {
+    display: flex;
+    justify-content: center; /* Center the products horizontally */
+    gap: 20px; /* Space between products */
+  }
+  
+  .product {
+    border-radius: 8px;
+    width: 250px; /* Adjust as needed */
+    border: 1px solid #ddd;
+    padding: 10px;
+    position: relative; /* For positioning the overlay */
+    overflow: hidden; /* Hide the overlay initially */
+  }
+  
+  .product img {
+    width: 100%;
+    height: auto;
+    display: block; /* Prevents a small space below the image */
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the overlay */
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
+    color: white;
+    padding: 10px;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease; /* Smooth transition */
+    display: flex;
+    gap: 10px;
+  }
+  
+  .product:hover .overlay {
+    opacity: 1; /* Show on hover */
+  }
+  
+  .overlay button {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .product h3, .product p {
+    margin: 10px 0;
+  }
+  
+  .rating span {
+    color: gold;
+  }
+  
+  .colors {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+  }
+  
+  .color-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+  }

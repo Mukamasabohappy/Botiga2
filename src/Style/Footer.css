@@ -1,0 +1,92 @@
+/* Footer.css */
+.footer {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Light text color */
+    padding: 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    justify-content: space-around; /* Distribute sections evenly */
+  }
+  .footer-stay{
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer-shop{
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer-section {
+    margin-bottom: 20px; /* Space between sections */
+    text-align: left; /* Align text to the left */
+ 
+  }
+  
+  .footer-section h3 {
+    margin-bottom: 10px;
+  }
+  
+  .newsletter-signup input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .newsletter-signup button {
+    padding: 8px 16px;
+    background-color: #007bff; /* Blue button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .social-icons{
+    display: flex;
+  }
+  .contact-info,
+  .social-icons,
+  .footer-links,
+  .payment-methods {
+    list-style: none;
+    padding: 0;
+    
+  }
+  
+  .contact-info li,
+  .social-icons li,
+  .footer-links li,
+  .payment-methods li {
+    margin-bottom: 5px;
+  }
+  .payment-methods{
+    display: flex;
+  }
+  .social-icons img,
+  .payment-methods img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #666; /* Add a line at the top */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .footer-section {
+      width: 45%; /* Two sections per row on medium screens */
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .footer-section {
+      width: 100%; /* One section per row on small screens */
+    }
+  }
