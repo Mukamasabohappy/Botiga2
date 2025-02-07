@@ -1,0 +1,68 @@
+.vendor-list-container {
+    text-align: center; /* Center the content */
+    padding: 20px;
+    padding-right: 10rem;
+    padding-left: 10rem;
+  }
+  
+  .shop-now {
+    margin-bottom: 20px;
+  }
+  
+  .shop-now button {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .vendor-list {
+    display: flex;
+    justify-content: center; /* Center the vendors horizontally */
+    gap: 20px; /* Space between vendors */
+    overflow-x: auto; /* Enable horizontal scrolling if needed */
+  }
+  
+  .vendor-item {
+    width: 300px; /* Adjust as needed */
+    padding: 10px;
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    align-items: flex-start; /* Align items to the left */
+   
+  }
+  
+  .vendor-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .vendor-details {
+    margin-bottom: 10px;
+  }
+  
+  .vendor-item h3 {
+    margin: 0;
+  }
+  
+  .view-store-btn { 
+    color: #000; /* Black text */
+    border: none;
+    border-radius: 50%; /* Make it circular */
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: auto; /* Push button to the bottom */
+  }
+  
+  .view-store-btn svg {
+    width: 20px;
+    height: 20px;
+  }

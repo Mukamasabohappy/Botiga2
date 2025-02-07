@@ -1,0 +1,88 @@
+/* Contact.css */
+.contact-container {
+    display: flex;
+    flex-direction: column; /* Stack map and form on smaller screens */
+    font-family: sans-serif; /* Use your preferred font */
+    padding: 20px;
+    width: 76.5rem;
+}
+
+.map-section {
+    width: 100%;
+    height: 400px; /* Adjust map height as needed */
+    margin-bottom: 20px; /* Space between map and form */
+    padding-left: 5rem;
+}
+
+.google-map {
+    width: 100%;
+    height: 100%;
+}
+
+.form-section {
+    display: flex;
+    gap: 40px; /* Space between form and store info */
+    padding-left: 5rem;
+   padding-right: 5rem;
+justify-content: space-between;
+    width: 100%;
+}
+
+.contact-form {
+    flex: 1; /* Form takes up available space */
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+}
+
+.name-inputs {
+    display: flex;
+    gap: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form button {
+    background-color: #4CAF50; /* Green submit button */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.store-info {
+    flex: 1; /* Store info takes up available space */
+    
+}
+
+.store-info h2 {
+    margin-bottom: 10px;
+    
+}
+
+.store-info p,
+.store-info h3 {
+    margin-bottom: 5px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .form-section {
+        flex-direction: column; /* Stack form and store info vertically */
+        gap: 20px;
+    }
+}
