@@ -52,7 +52,7 @@ const NewArrivals = () => {
   return (
     <div className="new-arrivals">
       <h2>New Arrival Products</h2>
-      <div className="product-list">
+      <div className="product-list1">
         {products.map((product, index) => (
           <div className="product" key={index}>
             <img src={product.image} alt={product.name} />

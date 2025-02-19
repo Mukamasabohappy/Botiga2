@@ -21,13 +21,10 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="navbar  " >
+    <div className="navbar  " >
       {modal && 
         < UseStateHook HandleLoginForm={HandleLoginForm}/> }
       <div className="navbar-left">
-      <Link to='/view'>
-      View
-      </Link>
         <a href="#" className="logo">Botiga</a>
         <div className="category-dropdown">
           <button className="category-btn">All Categories ▼</button>
@@ -82,7 +79,7 @@ const Navbar = () => {
         </div>
         <span className="phone-number">800-123-4567</span>
       </div>
-    </nav>
+    </div>
   );
 };
 

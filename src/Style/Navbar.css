@@ -1,11 +1,9 @@
- /* Navbar.css */
 .navbar {
 
-  justify-content: space-between; /* Distribute space between left and right */
-  align-items: center; /* Vertically align items */
-   /* Add padding */
-  background-color: #fff; /* Set background color */
-  color: #333; /* Set text color */
+  justify-content: space-between; 
+  align-items: center; 
+  background-color: #fff; 
+  color: #333;
   width: 98.5rem;
 
 }

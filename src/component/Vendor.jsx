@@ -21,7 +21,7 @@ const vendors = [
 
 const VendorList = () => {
   return (
-    <div className="vendor-list-container">
+    <div className="vendor-list-container1">
       <div className="shop-now">
         <button>SHOP NOW</button>
       </div>

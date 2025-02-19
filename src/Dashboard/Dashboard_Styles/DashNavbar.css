@@ -1,0 +1,28 @@
+.dash-navbar {
+  background-color: #f0f0f0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  margin-left: 18rem;
+}
+
+.dash-navbar-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.dash-navbar-links {
+  display: flex; 
+  gap: 20px; 
+}
+
+.dash-navbar-link {
+  text-decoration: none; 
+  display: flex;
+  align-items: center;
+}
+
+.dash-navbar-icon {
+  margin-right: 5px;
+}

@@ -61,7 +61,7 @@ const ShopComponent = () => {
   <h2 className="shop-title">SHOP</h2> 
 </div>
     <div className="shop-container">
-      <aside className="sidebar">
+      <aside className="sidebar1">
         <h2>Categories</h2>
         <ul>
           {categories.map((category) => (

@@ -1,0 +1,212 @@
+.dashboard {
+    padding: 30rem;
+    font-family: sans-serif;
+    padding-left: 30rem;
+  }
+  
+  .dashboard-summary {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    align-items: center;
+    padding-left: 30rem;
+    gap: 15;
+
+  }
+  
+  .summary-card {
+    width: 200px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .summary-card-value {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .summary-card-progress {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .progress-bar {
+    height: 8px;
+    border-radius: 4px;
+  }
+  
+  .dashboard-content {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .dashboard-chart {
+    flex: 1; /* Take up 2/3 of the space */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding-left: 30rem;
+  }
+  
+  .dashboard-products {
+    flex: 1; /* Take up 1/3 of the space */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    justify-content: space-around;
+    
+  }
+  
+  .chart-placeholder {
+    background-color: #f9f9f9;
+    display: flex;
+    padding-right: 5rem;
+  }
+  
+  .product-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  flex-direction: column;
+  }
+  
+  .product-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .product-item:last-child {
+    border-bottom: none;
+  }
+  
+  .product-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover; /* Ensure images fit nicely */
+  }
+  
+  .product-details {
+    flex: 1;
+  }
+  
+  .product-name {
+    font-weight: bold;
+  }
+  
+  .product-time {
+    color: #777;
+    font-size: 0.8rem;
+  }
+  /* Chart.css or Dashboard_Styles/Chart.css */
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.dashboard-summary {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.summary-card {
+  width: 200px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.summary-card-value {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.summary-card-progress {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.progress-bar {
+  height: 8px;
+  border-radius: 4px;
+}
+
+.dashboard-content {
+  display: flex;
+}
+
+.dashboard-chart {
+  flex: 2;  /* Take up more space */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-left: 18rem;
+}
+
+.dashboard-products {
+  flex: 0.5; /* Take up less space */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+
+.chart-placeholder {
+  width:80%;
+  height: 400px;  /* Important:  Give the chart container a height */
+  padding-left: 5rem;
+  
+}
+
+.product-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.product-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.product-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  
+}
+
+.product-name {
+  font-weight: bold;
+}
+.dashboard-recent-orders {
+ margin-left: 16rem;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.dashboard-recent-orders h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}

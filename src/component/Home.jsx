@@ -1,11 +1,9 @@
 import "../Style/Home.css";
 import NewArrivals from "./Arrival";
 import VendorList from "./Vendor";
-
 function Home() {
   return (
     <div className="home-container">
-      {/* Hero Section */}
     <div className="sub-nav">
       <div className="side-bar">
          
@@ -29,10 +27,6 @@ function Home() {
       </div>
       </div>
       <div className="content">
-        {/* Sidebar Categories */}
-        
-
-        {/* Popular Categories */}
         <div className="popular-categories">
           <h2>Popular Categories</h2>
           <div className="categories-grid">
@@ -54,6 +48,7 @@ function Home() {
       </div>
       <NewArrivals/>
       <VendorList/>
+
     </div>
   );
 }

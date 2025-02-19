@@ -8,8 +8,8 @@
   .footer-content {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap; /* Allow wrapping on smaller screens */
-    justify-content: space-around; /* Distribute sections evenly */
+    flex-wrap: wrap; 
+    justify-content: 
   }
   .footer-stay{
     display: flex;
@@ -20,8 +20,8 @@
     justify-content: space-around;
   }
   .footer-section {
-    margin-bottom: 20px; /* Space between sections */
-    text-align: left; /* Align text to the left */
+    margin-bottom: 20px;
+    text-align: left; 
  
   }
   
@@ -38,7 +38,7 @@
   
   .newsletter-signup button {
     padding: 8px 16px;
-    background-color: #007bff; /* Blue button */
+    background-color: #007bff; 
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -75,18 +75,17 @@
   .footer-bottom {
     text-align: center;
     padding-top: 20px;
-    border-top: 1px solid #666; /* Add a line at the top */
+    border-top: 1px solid #666; 
   }
-  
-  /* Responsive adjustments */
+ 
   @media (max-width: 768px) {
     .footer-section {
-      width: 45%; /* Two sections per row on medium screens */
+      width: 45%; 
     }
   }
   
   @media (max-width: 500px) {
     .footer-section {
-      width: 100%; /* One section per row on small screens */
+      width: 100%; 
     }
   }

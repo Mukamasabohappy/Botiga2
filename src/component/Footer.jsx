@@ -4,7 +4,7 @@ import '../Style/Footer.css'; // Import your CSS file
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <div className="footer">
       <div className="footer-content">
         <div className='footer-stay'> 
         <div className="footer-section">
@@ -76,7 +76,7 @@ const Footer = () => {
       <div className="footer-bottom">
         <p>&copy; {new Date().getFullYear()} Your Company Name. All rights reserved.</p>
       </div>
-    </footer>
+    </div>
   );
 };
 
