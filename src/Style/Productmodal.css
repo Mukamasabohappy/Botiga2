@@ -1,0 +1,172 @@
+/* Shop.css  (or your component's CSS file) */
+
+/* Modal Styles - Keep these or adjust as needed */
+.modal {
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup-modal .modal-content {
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.product-popup-modal .modal-content { /* Ensure specificity */
+    max-width: 900px; /* Adjust as needed */
+    width: 80%;      /* Adjust as needed */
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 30px;
+    color: #333;
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0;
+    z-index: 1001;
+}
+
+/* Product Details Container Styles (From previous response) */
+.product-details-container {
+    display: flex;
+    background-color: #f9f9f9;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 20px;
+    font-family: sans-serif;
+    color: #333;
+    max-width: 800px;
+    margin: 0;  /* Remove margin from the modal content itself */
+}
+
+.product-image-section {
+    width: 50%;
+    padding-right: 20px;
+}
+
+.main-image {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.main-image img {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.zoom-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.2em;
+    color: #3498db;
+    cursor: pointer;
+}
+
+.thumbnail-images {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.thumbnail-images img {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    object-fit: cover;  /* Prevents thumbnails from stretching */
+}
+
+.product-info-section {
+    width: 50%;
+    padding-left: 20px;
+}
+
+.product-specs {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.product-specs p {
+    margin: 5px 0;
+}
+
+.vendor-info {
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+.vendor-info h3 {
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.vendor-details {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.vendor-details img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover; /* Ensure image fits circle */
+}
+
+.address-icon, .contact-icon {
+    color: #777;
+    margin-right: 5px;
+}
+
+.see-all-products-button {
+    background-color: white; /* Changed to white */
+    color: black;           /* Changed to black */
+    border: 1px solid #333; /* Added a border */
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: bold; /* Added font-weight */
+    width: 100%;         /* Full width */
+    text-align: center;  /* Center text */
+    margin-top: 15px;    /* Space from above */
+}
+
+.see-all-products-button:hover {
+    background-color: #333; /* Darker background */
+    color: white;
+}
+
+/*Responsive design*/
+@media (max-width: 768px) {
+    .product-details-container {
+        flex-direction: column;
+    }
+
+    .product-image-section, .product-info-section {
+        width: 100%;
+        padding: 0;
+    }
+
+    .product-info-section {
+        margin-top: 20px;
+    }
+}

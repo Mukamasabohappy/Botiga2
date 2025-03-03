@@ -132,13 +132,16 @@
     opacity: 1;
 }.layout-options button.active {
     opacity: 1;
-}.vendor-grid {
+}
+.vendor-grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(300px, 1fr)); /* Responsive grid */
     grid-gap: 20px;
     padding-left: 5rem;
     padding-right: 5rem;
-}.vendor-card {
+height: 20rem;
+}
+.vendor-card {
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
@@ -151,9 +154,9 @@
     transform: translateY(-5px);
 }.vendor-image {
     width: 100%;
-    overflow: hidden;
-    position: relative; /* For positioning the arrow */
-   
+
+    position: relative; 
+   height: 20rem;
 }
 .header-h{
     justify-content: space-around;

@@ -22,7 +22,7 @@
     display: flex;
     justify-content: center; /* Center the vendors horizontally */
     gap: 20px; /* Space between vendors */
-    overflow-x: auto; /* Enable horizontal scrolling if needed */
+    overflow-x: auto; 
   }
   
   .vendor-item {
